@@ -1,0 +1,44 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img{
+    width: 250px;
+    height: 350px;
+    }
+  
+  img:hover{
+    transform:translateY(-20px);
+    margin-top: -25px;
+    border-radius:12px;
+    transition:1s;
+  }
+  
+  #pictures{
+    margin-top:100px;
+    font-size:20px;
+    font-family:Montserrat;
+  }
+  
+  .col-3{
+    display: flex;
+    flex-direction:column;
+    padding: 30px;
+  }
+  
+  .col-3 a{
+    text-decoration:none;
+    color:#000;
+    text-align:center;
+  }
+  
+  .col-3 a:hover{
+    color:#e69110;
+    transition:.5s;
+  }
+  
+  #logo{
+    height: 60px;
+  }

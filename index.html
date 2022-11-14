@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masonry Grids</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Marcellus+SC&family=Montserrat:wght@300&family=Suez+One&family=Xanh+Mono&display=swap');
+      </style>
+</head>
+<body>
+
+  <!-- navbar start -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Once_Upon_a_Time_Logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Characters</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Seasons
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Season 1</a></li>
+                <li><a class="dropdown-item" href="#">Season 2</a></li>
+                <li><a class="dropdown-item" href="#">Season 3</a></li>
+                <li><a class="dropdown-item" href="#">Season 4</a></li>
+                <li><a class="dropdown-item" href="#">Season 5</a></li>
+                <li><a class="dropdown-item" href="#">Season 6</a></li>
+                <li><a class="dropdown-item" href="#">Season 7</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Once Upon a Time in Wonderland</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+<div id="pictures">  
+<div class="container fluid">
+<div class="row">
+  <div class="col-3"><a href="#"><img id="img" src="https://akns-images.eonline.com/eol_images/Entire_Site/2015322/rs_634x1024-150422174914-634.Once-Upon-a-Time-Jennifer-Morrison.ms.042215.jpg?fit=around%7C634:1024&output-quality=90&crop=634:1024;center,top" alt="Emma Swan"> Emma Swan</a></div>
+  <div class="col-3"><a href="#"><img id="img" src="http://images6.fanpop.com/image/photos/35300000/Regina-once-upon-a-time-35320818-2355-3143.jpg" alt="Regina">Regina / <br>The Evil Queen</a></div>
+  <div class="col-3"><img id="img" src="https://i.pinimg.com/736x/27/3f/cd/273fcd1eec617907935353103d2f2a18--season--once-upon-a-time.jpg" alt="henry"><a href="#">Henry</a></div>
+  <div class="col-3"><a href="#"><img id="img" src="https://static.tvmaze.com/uploads/images/medium_portrait/1/3994.jpg" alt="Snow White"><br>Mary Margaret / <br>Snow White</a></div>
+  
+</div>
+  </div>
+
+  <div class="container fluid">
+  <div class="row">
+  <div class="col-3"><a href="#"><img id="img" src="https://i.pinimg.com/originals/fd/12/66/fd126604686972c1542791111f0bd09c.jpg" alt="David / Prince Charming"><br>David Nolan / <br>Prince Charming</a></div>
+  <div class="col-3"><a href="#"><img id="img" src="https://i.pinimg.com/originals/02/84/ae/0284ae36472f1529b079b74d19878ed9.jpg" alt="Rumplestiltskin">Rumplestiltskin / <br>Mr. Gold</a></div>
+  <div class="col-3"><a href="#"><img id="img" src="https://i.pinimg.com/originals/5a/18/47/5a1847846e52e92d95b863d2ee518753.jpg" alt="Hook">Captain Gillian (Hook) Jones</a></div>
+  <div class="col-3"><a href="#"><img id="img" src="https://static.tvmaze.com/uploads/images/medium_portrait/0/880.jpg" alt="Neal"><br>Neal Cassidy / <br>Bealfire</a></div>
+  
+</div>
+      </div>
+
+      <div class="container fluid">
+        <div class="row">
+  <div class="col-3"><a href="#"><img id="belle" src="http://ic.pics.livejournal.com/hereforthegirls/77233920/1894/1894_900.jpg" alt="Belle"><br>Belle</a></div>
+  <div class="col-3"><a href="#"><img id="robin" src="https://i.pinimg.com/originals/3e/c0/b0/3ec0b0f45a101592df8de6fc3bad50cb.jpg" alt="Robin">Robin Hood</a></div>
+  <div class="col-3"><a href="#"><img id="zelena" src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/19/1494590885-once-upon-a-time-zelena-rebecca-mader-outside.jpg" alt="zelena">Zelena / <br>The Wicked Witch of the West</a></div>
+  <div class="col-3"><a href="#"><img id="peter" src="https://i.pinimg.com/originals/1d/e1/7c/1de17c2905ec47b5a7a696e05a259bdf.jpg" alt="Peter Pan"><br>Peter Pan</a></div>
+  
+</div>
+
+          <div class="container fluid">
+            <div class="row">
+  <div class="col-3"><a href="#"><img id="cora" src="https://img.huffingtonpost.com/asset/5bb569a02200004301dc6709.jpeg?ops=scalefit_720_noupscale" alt="cora"><br>Cora / <br>The Queen of Hearts</a></div>
+  <div class="col-3"><a href="#"><img id="archie" src="https://www.hollywoodreporter.com/wp-content/uploads/2011/11/raphael-sbarge-once-upon-a-time-abc.jpg?w=1024" alt="Archie Hopper">Archie Hopper / <br>Jimminy Cricket</a></div>
+  <div class="col-3"><a href="#"><img id="blue" src="https://cache.moviestillsdb.com/i/500x/kaol9sjg/once-upon-a-time-lg.jpg" alt="blue">Mother Superior / <br>The Blue Fairy</a></div>
+  <div class="col-3"><a href="#"><img id="mirror" src="https://m.media-amazon.com/images/M/MV5BNjE4ODcyMDE5MV5BMl5BanBnXkFtZTgwMzMxNjI3MjE@._V1_UY1200_CR84,0,630,1200_AL_.jpg" alt="Sydney"> Sydney / <br>The Magic Mirror / <br>The Genie</a></div>
+  
+</div>
+              </div>
+  
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    
+    
+</body>
+</html>
